@@ -1,6 +1,9 @@
 // Trazer de outro arquivo/biblioteca alguma função ou variável
 import { createRoot } from "react-dom/client";
+import { Footer } from "./components/Footer";
 import {Mensagem} from "./components/Mensagem"
+import { Titulo } from "./components/Titulo";
+import {Blog} from "./components/Blog"
 import './styles.css';
 // Selecionando a div na página
 const rootElement = document.getElementById("root");
@@ -13,7 +16,10 @@ const root = createRoot(rootElement);
 // Inserimos o conteúdo da página
 root.render(
   <div>
-    <Mensagem />
+    <Titulo></Titulo>
+    <Mensagem></Mensagem>
+    <Blog></Blog>
+    <Footer></Footer>
   </div>  
     
 );

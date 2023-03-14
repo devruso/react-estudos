@@ -4,3 +4,24 @@ body {
     margin: 0;
     box-sizing: border-box;
   }
+
+img{
+    border-radius: 8px;
+}
+
+.titulo{
+    color: brown;
+}
+
+.paragrafo{
+    font-style: italic;
+}
+
+.mensagem {
+    background-color: whitesmoke;
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 300px;
+    margin: 8px auto;
+  }

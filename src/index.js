@@ -1,27 +1,44 @@
 // Trazer de outro arquivo/biblioteca alguma função ou variável
 import { createRoot } from "react-dom/client";
-import { Footer } from "./components/Footer";
-import {Mensagem} from "./components/Mensagem"
-import { Titulo } from "./components/Titulo";
-import {Blog} from "./components/Blog"
-import './styles.css';
+import { Footer } from "./components/Footer/Footer";
+import { Mensagem } from "./components/Mensagem/Mensagem";
+import { Titulo } from "./components/Titulo/Titulo";
+import { Blog } from "./components/Blog/Blog";
+import "./styles.css";
+import { Postagem } from "./components/Postagem/Postagem";
+import { ListMusic } from "./components/ListMusic/ListMusic";
+import { Task } from "./components/Task/Task";
 // Selecionando a div na página
 const rootElement = document.getElementById("root");
 
 // A div root será a base da aplicação
 const root = createRoot(rootElement);
 
-
-
 // Inserimos o conteúdo da página
 root.render(
   <div>
-    <Titulo></Titulo>
+    {/*
+      <Titulo></Titulo>
     <Mensagem></Mensagem>
     <Blog></Blog>
+    <Postagem></Postagem>
     <Footer></Footer>
-  </div>  
-    
+      */}
+    <Titulo corBorda="#00FF00" corFundo="#00FF0022">Tarefas</Titulo>
+    <ListMusic></ListMusic>
+    <Titulo corBorda="#00FF00" corFundo="#00FF0022">Tarefas</Titulo>
+    <Task title="Beber água" status="Feito" deadline="14/03/23 14:00" />
+    <Task
+      title="Fazer apresentação"
+      status="Atrasado"
+      deadline="14/03/23 23:00"
+    />
+    <Task title="Correr" status="Feito" deadline="12/03/23 13:00" />
+
+    <Titulo>
+      React é uma biblioteca para criação de interfaces visuais web.
+    </Titulo>
+  </div>
 );
 
 // let nome = "Almir";

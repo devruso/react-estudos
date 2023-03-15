@@ -1,0 +1,10 @@
+.product{
+    width: 200px;
+    margin: 20px;
+    display: inline-block;
+    background-color: aquamarine;
+    
+}
+.product .productImg{
+    width: 80%;
+}

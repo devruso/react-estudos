@@ -8,6 +8,7 @@ import "./styles.css";
 import { Postagem } from "./components/Postagem/Postagem";
 import { ListMusic } from "./components/ListMusic/ListMusic";
 import { Task } from "./components/Task/Task";
+import { ProductList } from "./components/ProductList/ProductList";
 // Selecionando a div na página
 const rootElement = document.getElementById("root");
 
@@ -38,6 +39,10 @@ root.render(
     <Titulo>
       React é uma biblioteca para criação de interfaces visuais web.
     </Titulo>
+      <Titulo corBorda="972929" corFundo="#edf05a">
+        Lista de Produtos
+      </Titulo>
+    <ProductList></ProductList>
   </div>
 );
 

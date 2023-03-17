@@ -1,16 +1,18 @@
-import { ListaAluno } from "./components/ListaAluno/ListaAluno";
-import { ListaCompras } from "./components/ListaCompras/ListaCompras";
-import { ListaFuncionarios } from "./components/ListaFuncionarios/ListaFuncionarios";
-import { NavBar } from "./components/NavBar/NavBar";
+import { Cadastro } from './components/Cadastro/Cadastro';
+import { Contador } from './components/Contador/Contador';
+import { ListaFrutas } from './components/ListaFrutas/ListaFrutas';
+import {Quadrado} from './components/Quadrado/Quadrado'
 
 export function App() {
   return (
     <>
       {/* <ListaCompras/> */}
       {/* <ListaFuncionarios/> */}
-      <NavBar logado={true} nomeUsuario="José" />
-      <NavBar logado={false} nomeUsuario="José" />
-      <ListaAluno></ListaAluno>
+
+      {/* <Quadrado/> */}
+      {/* <Contador/> */}
+      <ListaFrutas/>
+
     </>
   );
 }

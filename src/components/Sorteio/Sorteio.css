@@ -1,0 +1,18 @@
+
+.caixa{
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1,h2{
+    text-align: center;
+}
+.par{
+    background-color:green
+}
+.impar{
+    background-color: yellow;
+}

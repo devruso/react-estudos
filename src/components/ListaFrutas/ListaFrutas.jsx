@@ -14,6 +14,7 @@ export function ListaFrutas() {
       const frutasAchadas = frutas.filter((el) =>
         el.nome.toLowerCase().includes(nomeFruta.toLowerCase())
       );
+      
       const frutasRenderizadas = frutasAchadas.map((fruta) => (
         <li className="fruta" key={fruta.id}>
           <img src={fruta.imagem} alt="" />

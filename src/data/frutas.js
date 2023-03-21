@@ -1,6 +1,6 @@
 export const frutas = [
     {
-        nome: "Frutas",
+        nome: "Banana",
         imagem: "https://cdn.awsli.com.br/800x800/18/18885/produto/102523124/6ba7072878.jpg"
     },
     {
